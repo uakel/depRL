@@ -4,12 +4,14 @@ import os
 from types import SimpleNamespace
 
 import numpy as np
-from gymnasium import wrappers
+# import gymnasium as gym
+import gym
 
-try:
-    from myosuite.utils import gym
-except ModuleNotFoundError:
-    pass
+
+# try:
+#     from myosuite.utils import gym
+# except ModuleNotFoundError:
+#     pass
 
 
 from deprl.vendor.tonic import environments
