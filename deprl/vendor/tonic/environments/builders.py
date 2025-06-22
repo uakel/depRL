@@ -4,9 +4,8 @@ import os
 from types import SimpleNamespace
 
 import numpy as np
-# import gymnasium as gym
-from gym import wrappers
-import gym
+import gymnasium as gym
+from gymnasium import wrappers
 
 
 # try:
